@@ -10,10 +10,10 @@ onMounted(() => {
 
 <template>
   <nav>
-    <RouterLink to="/stocks">Go to Stocks</RouterLink>
-    <RouterLink to="/incomes">Go to Incomes</RouterLink>
-    <RouterLink to="/sales">Go to Sales</RouterLink>
-    <RouterLink to="/orders">Go to Orders</RouterLink>
+    <RouterLink to="/stocks">Просмотреть склады</RouterLink>
+    <RouterLink to="/incomes">Просмотреть доходы</RouterLink>
+    <RouterLink to="/sales">Просмотреть продажи</RouterLink>
+    <RouterLink to="/orders">Просмотреть заказы</RouterLink>
   </nav>
   <main class = "container" data-bs-theme="dark">
     <RouterView/>
